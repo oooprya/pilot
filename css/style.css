@@ -1,3 +1,8 @@
 body {
   font: outline;
 }
+
+h1 {
+  font-size: 2em;
+  color: #555555;
+}
