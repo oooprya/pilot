@@ -23,46 +23,48 @@ h1 {
 }
 
 .restaurants .nav-tabs {
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 986px;
   border-bottom: none;
 }
 
 
- .nav-item  {
-  border: 2px solid #000;
-  max-width: 220px;
+
+.nav-link:link, .nav-link:visited {
+  display: block;
+
+  padding: 7px 0 11px 0;
+  width: 223px;
+  border: 2px solid #2f2f2f;
+
+  background-color: #fff;
+  color: #2f2f2f;
+  
+  text-decoration: none;
   text-align: center;
-  padding: 10px 0 13px 0;
-  margin-right: 30px;
-}
-
-.nav-item:last-child {
-  margin-right: 0;
-}
-
-.active-tab {
-  border-color: #6bcd5b;
-  color: #6bcd5b;
-}
-
- .active-tab .nav-link{
-  color: #6bcd5b;
-}
-
-.nav-link {
   font-size: 18px;
   font-weight: 500;
   color: #2f2f2f
 }
 
+.nav-link:hover {
+  border: 2px solid yellow;
+}
+
 /* Restaurants Items */
+
+.rest-items {
+  width: 1171px;
+  margin: 0 auto;
+}
 
 .res-item_1 {
   
   background-image: url(../img/Restoraunt_1.png);
   background-size: cover;
-  height: 570px;
+  height: 503px;
   margin-top: 65px;
   position: relative;
 }
@@ -75,4 +77,5 @@ h1 {
   position: absolute;
   bottom: 0;
 }
+
 
