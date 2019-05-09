@@ -3,13 +3,86 @@ body {
   font-weight: 400;
 }
 
+ul {
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
 
 h1 {
-  font-size: 2em;
-  color: #555555;
+  font-size: 34px;
+  font-weight: 500;
+  color: #2f2f2f;
+}
+
+/*  */
+/* Dostavka_Edy */
+
+header {
+  height: 170px;
+}
+
+.order-food-online {
+  padding: 9.4em 0;
+  text-align: center;
+  background-image: url('../img/bg-w-food-delivery.jpg');
+  background-size: cover;
+  max-height: 600px;
+}
+
+.tabs-link li {
+  display: inline-block;
+}
+
+.tabs-link {
+  margin: 4.2em 0 8.5em;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-link.active {
+  color: #6bcd5b;
+  border: 2px solid #6bcd5b;
+}
+
+.nav-link {
+  display: block;
+  background-color: transparent;
+  width: 224px;
+  border: 2px solid #2f2f2f;
+  padding: 0.5em;
+  font-size: 18px;
+  margin: 0 15px;
+  color: #2f2f2f;
+  font-weight: 500;
+}
+
+.group-food ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 60px;
+  height: 54px;
+  display: block;
+  background-image: url(../img/ico-png/sushi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 30px;
+}
+
+.title-food {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2f2f2f;
+  text-align: center;
 }
 
 /* Restaurants Section */
@@ -32,14 +105,14 @@ h1 {
 
 
 
-.nav-link:link, .nav-link:visited {
+/* .nav-link:link, .nav-link:visited {
   display: block;
 
   padding: 7px 0 11px 0;
   width: 223px;
   border: 2px solid #2f2f2f;
 
-  background-color: #fff;
+  background-color: transparent;
   color: #2f2f2f;
   
   text-decoration: none;
@@ -47,11 +120,9 @@ h1 {
   font-size: 18px;
   font-weight: 500;
   color: #2f2f2f
-}
+} */
 
-.nav-link:hover {
-  border: 2px solid yellow;
-}
+
 
 /* Restaurants Items */
 
@@ -61,7 +132,7 @@ h1 {
 }
 
 .res-item_1 {
-  
+
   background-image: url(../img/Restoraunt_1.png);
   background-size: cover;
   height: 503px;
@@ -77,5 +148,4 @@ h1 {
   position: absolute;
   bottom: 0;
 }
-
 
