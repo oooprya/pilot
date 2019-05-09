@@ -77,78 +77,138 @@
     </div>
   </div>
   <!-- end order-food-online-->
-  <div class="container">
-    <div class="row">
-      <div class="wrap-filter">
-        <div class="sort-view-container pos-fix" id="sort_view">
-          <div class="dropdown-title">
-            Сортировать по:
+  <div class="container-fluid bg-texture">
+    <div class="container">
+      <div class="row">
+        <p class="h2">Доставка еды из ресторанов Одесса Все рестораны</p>
+        <div class="wrap-filter">
+          <div class="sort-view-container pos-fix" id="sort_view">
+            <div class="dropdown-title">
+              Сортировать по:
+            </div>
+            <a href="#" class="dropdown-link sprite-both" name="drop_link">
+              По умолчанию
+            </a>
           </div>
-          <a href="#" class="dropdown-link sprite-both" name="drop_link">
-            По умолчанию
-          </a>
+          <label class="filter-label">
+            <input class="hidden" type="radio" checked="">
+            <i class="filter-default-title">Все</i>
+            <a href="/" name="">
+              <span class="filter-radio-active"></span>
+            </a>
+          </label>
+          <label class="filter-label">
+            <input class="hidden" type="radio" checked="">
+            <i class="filter-default-title">Открытые</i>
+            <a href="/" name="">
+              <span class="filter-radio"></span>
+            </a>
+          </label>
+          <div class="clear-filter btn">Сбросить фильтр</div>
         </div>
-        <label class="filter-label">
-          <input class="hidden" type="radio" checked="">
-          <i class="filter-default-title">Все</i>
-          <a href="/" name="">
-            <span class="filter-radio-active"></span>
-          </a>
-        </label>
-        <label class="filter-label">
-          <input class="hidden" type="radio" checked="">
-          <i class="filter-default-title">Открытые</i>
-          <a href="/" name="">
-            <span class="filter-radio"></span>
-          </a>
-        </label>
-        <div class="clear-filter btn">Сбросить фильтр</div>
-      </div>
-      <div class="wrap-filter-active">
-        <div class="filter-active-item">Суворовский район <span class="filter-delete cursor-pointer"><svg
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="12px">
-              <path fill-rule="evenodd" fill="rgb(107, 205, 91)"
-                d="M12.000,10.939 L10.941,11.999 L6.000,7.058 L1.059,12.000 L0.000,10.940 L4.941,5.999 L0.002,1.060 L1.061,-0.000 L6.000,4.939 L10.939,0.000 L11.998,1.060 L7.060,5.999 L12.000,10.939 Z" />
-            </svg></span></div>
-      </div>
+        <div class="wrap-filter-active">
+          <div class="filter-active-item">Суворовский район <span class="filter-delete cursor-pointer"><svg
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px"
+                height="12px">
+                <path fill-rule="evenodd" fill="rgb(107, 205, 91)"
+                  d="M12.000,10.939 L10.941,11.999 L6.000,7.058 L1.059,12.000 L0.000,10.940 L4.941,5.999 L0.002,1.060 L1.061,-0.000 L6.000,4.939 L10.939,0.000 L11.998,1.060 L7.060,5.999 L12.000,10.939 Z" />
+              </svg></span></div>
+        </div>
+        <div class="wrap-filter-active">
+          <div class="filter-active-item">Суворовский район <span class="filter-delete cursor-pointer"><svg
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px"
+                height="12px">
+                <path fill-rule="evenodd" fill="rgb(107, 205, 91)"
+                  d="M12.000,10.939 L10.941,11.999 L6.000,7.058 L1.059,12.000 L0.000,10.940 L4.941,5.999 L0.002,1.060 L1.061,-0.000 L6.000,4.939 L10.939,0.000 L11.998,1.060 L7.060,5.999 L12.000,10.939 Z" />
+              </svg></span></div>
+        </div>
 
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="left-bar col-md-4">
+          <div class="row">
+            <div class="col-md-6"><a href="" class="btn tab-btn active">Доставка</a></div>
+            <div class="col-md-6"><a href="" class="btn tab-btn">Самовывоз</a></div>
+          </div>
+
+
+          <div class="filter-group">
+            <div class="title-filter-g">Район</div>
+            <div class="ico-refresh">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px"
+                height="18px">
+                <path fill-rule="evenodd" opacity="0.702" fill="rgb(47, 47, 47)"
+                  d="M18.964,13.078 C18.839,12.690 18.423,12.479 18.036,12.604 L17.079,12.916 C17.665,11.701 17.973,10.364 17.973,9.000 C17.973,4.037 13.941,-0.000 8.986,-0.000 C4.031,-0.000 -0.000,4.037 -0.000,9.000 C-0.000,13.963 4.031,18.000 8.986,18.000 C9.393,18.000 9.723,17.669 9.723,17.262 C9.723,16.855 9.393,16.524 8.986,16.524 C4.844,16.524 1.473,13.149 1.473,9.000 C1.473,4.851 4.844,1.475 8.986,1.475 C13.129,1.475 16.499,4.851 16.499,9.000 C16.499,10.143 16.242,11.262 15.750,12.279 L15.423,11.270 C15.297,10.883 14.881,10.671 14.494,10.797 C14.108,10.923 13.896,11.339 14.021,11.726 L14.890,14.404 C14.991,14.716 15.280,14.914 15.590,14.914 C15.666,14.914 15.743,14.902 15.818,14.877 L18.492,14.008 C18.878,13.882 19.090,13.465 18.964,13.078 Z" />
+              </svg>
+            </div>
+            <ul>
+              <li><label for="checkbox-group1">
+                  <input id="checkbox-group1" type="checkbox" />
+                  <span>Приморский район</span>
+                </label>
+              </li>
+              <li><label for="checkbox-group2">
+                  <input id="checkbox-group2" type="checkbox" />
+                  <span>Киевский район</span>
+                </label>
+              </li>
+              <li><label for="checkbox-group3">
+                  <input id="checkbox-group3" type="checkbox" />
+                  <span>Суворовский район</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="item-res-food">
+            <div class="title-restaurant">
+              <h3>Робин Бобин</h3>
+              <div class="time-res">10:00-23:00</div>
+              <p>Способ оплаты:</p>
+              <p>Кухня: украинская, европейская. <a href="">Подробнее...</a></p>
+            </div>
+            <div class="box-info">
+              <span>Заказ от 230грн</span><span>Доставка Бесплатно</span><span>Время доставки 60 мин</span>
+              <a href="" class="btn link-green">Подробнее</a>
+            </div>
+          </div>
+          <div class="item-res-food">
+            <div class="title-restaurant">
+              <h3>Робин Бобин</h3>
+              <div class="time-res">10:00-23:00</div>
+              <p>Способ оплаты:</p>
+              <p>Кухня: украинская, европейская. <a href="">Подробнее...</a></p>
+            </div>
+            <div class="box-info">
+              <span>Заказ от 230грн</span><span>Доставка Бесплатно</span><span>Время доставки 60 мин</span>
+              <a href="" class="btn link-green">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="left-bar col-md-4">
-    <a href="" class="btn tab-btn">Доставка</a>
-    <a href="" class="btn tab-btn">Самовывоз</a>
-    <div class="filter-group">
-      <div class="title-filter-g">Район</div>
-      <div class="ico-refresh">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="18px">
-          <path fill-rule="evenodd" opacity="0.702" fill="rgb(47, 47, 47)"
-            d="M18.964,13.078 C18.839,12.690 18.423,12.479 18.036,12.604 L17.079,12.916 C17.665,11.701 17.973,10.364 17.973,9.000 C17.973,4.037 13.941,-0.000 8.986,-0.000 C4.031,-0.000 -0.000,4.037 -0.000,9.000 C-0.000,13.963 4.031,18.000 8.986,18.000 C9.393,18.000 9.723,17.669 9.723,17.262 C9.723,16.855 9.393,16.524 8.986,16.524 C4.844,16.524 1.473,13.149 1.473,9.000 C1.473,4.851 4.844,1.475 8.986,1.475 C13.129,1.475 16.499,4.851 16.499,9.000 C16.499,10.143 16.242,11.262 15.750,12.279 L15.423,11.270 C15.297,10.883 14.881,10.671 14.494,10.797 C14.108,10.923 13.896,11.339 14.021,11.726 L14.890,14.404 C14.991,14.716 15.280,14.914 15.590,14.914 C15.666,14.914 15.743,14.902 15.818,14.877 L18.492,14.008 C18.878,13.882 19.090,13.465 18.964,13.078 Z" />
-        </svg>
+  <footer class="footer">
+    <div class="container">
+      <div class="col-md-4">
+        <p>Сервис онлайн заказов и доставки еды из ресторанов Вашего города</p>
       </div>
       <ul>
-        <li><label for="checkbox-group1">
-            <input id="checkbox-group1" type="checkbox" />
-            <span>Приморский район</span>
-          </label>
-        </li>
-        <li><label for="checkbox-group2">
-            <input id="checkbox-group2" type="checkbox" />
-            <span>Киевский район</span>
-          </label>
-        </li>
-        <li><label for="checkbox-group3">
-            <input id="checkbox-group3" type="checkbox" />
-            <span>Суворовский район</span>
-          </label>
-        </li>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a href="">Новости</a></li>
+        <li><a href="">Вопросы и ответы</a></li>
+
+
+
+
       </ul>
     </div>
-  </div>
-  <div class="com-md-8">
-    .title-restaurant{Робин Бобин}
-  </div>
-
-
+    <p class="copyright">© 2015-2019 - Пилот. Все права защищены.</p>
+  </footer>
 </body>
 
 </html>

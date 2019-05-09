@@ -41,6 +41,11 @@ header {
   max-height: 600px;
 }
 
+.bg-texture {
+  background-image: url(../img/bg-texture.jpg);
+  background-position: center top;
+}
+
 .tabs-link li {
   display: inline-block;
 }
@@ -51,9 +56,16 @@ header {
   padding: 0;
 }
 
-.nav-link.active {
+.nav-link.active,
+.link-green,
+.tab-btn.active {
   color: #6bcd5b;
   border: 2px solid #6bcd5b;
+}
+
+.tab-btn {
+  border: 2px solid #2f2f2f;
+  color: #2f2f2f;
 }
 
 .nav-link {
@@ -103,6 +115,13 @@ header {
 .wrap-filter {
   border: 2px solid #eeeeee;
   padding: 30px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.filter-active-item {
+  float: left;
+  margin-right: 60px;
 }
 
 .cursor-pointer {
@@ -120,6 +139,14 @@ header {
 .filter-group {
   position: relative;
   width: 100%;
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.title-filter-g {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .filter-group label {
@@ -134,8 +161,8 @@ header {
   -moz-appearance: none;
   appearance: none;
   font-size: inherit;
-  width: 1em;
-  margin: 0;
+  margin: 0 15px 0 0;
+  top: 4px;
   color: inherit;
   outline: none;
   font-family: "Font Awesome 5 Pro";
@@ -177,12 +204,6 @@ header {
   position: absolute;
 }
 
-.filter-group label input[type="radio"]:checked::after {
-  content: "\f192";
-}
-
-.filter-checkbox-active {}
-
 .filter-radio-active {
   display: table-cell;
   height: 25px;
@@ -197,6 +218,22 @@ header {
   border: 2px solid;
   float: right;
   padding: 10px 20px;
+}
+
+.item-res-food {
+  padding: 20px;
+  border: 2px solid #dcdcdc;
+  margin-bottom: 30px;
+  background-color: #fff;
+
+}
+
+footer {
+  background-color: #2f2f2f;
+}
+
+.footer p {
+  color: #eeeeee;
 }
 
 /* ---- */
