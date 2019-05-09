@@ -85,6 +85,117 @@ header {
   text-align: center;
 }
 
+.dropdown-link:after {
+  background-position: -690px -511px;
+  width: 13px;
+  height: 13px;
+  top: 50%;
+  margin-top: -6px;
+  right: 4px;
+  z-index: 1;
+}
+
+.wrap-filter {
+  border: 2px solid #eeeeee;
+  padding: 30px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ico-refresh {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  top: 0;
+  cursor: pointer;
+}
+
+.filter-group {
+  position: relative;
+  width: 100%;
+}
+
+.filter-group label {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.filter-group label input[type="checkbox"],
+.filter-group label input[type="radio"] {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  width: 1em;
+  margin: 0;
+  color: inherit;
+  outline: none;
+  font-family: "Font Awesome 5 Pro";
+  transition: 300ms ease-out;
+}
+
+.filter-group label input[type="checkbox"]::after,
+.filter-group label input[type="radio"]::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #dcdcdc;
+}
+
+.filter-group label input[type="checkbox"]:checked::after,
+.filter-group label input[type="radio"]:checked::after {
+  font-weight: 900;
+}
+
+.filter-group label input[type="checkbox"]:active,
+.filter-group label input[type="radio"]:active {
+  -webkit-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.filter-group label input[type="checkbox"]+span,
+.filter-group label input[type="radio"]+span {
+  margin-left: 0.35em;
+}
+
+.filter-group label input[type="checkbox"]:checked::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #6bcd5b;
+  margin: 7px;
+  position: absolute;
+}
+
+.filter-group label input[type="radio"]:checked::after {
+  content: "\f192";
+}
+
+.filter-checkbox-active {}
+
+.filter-radio-active {
+  display: table-cell;
+  height: 25px;
+  vertical-align: middle;
+  color: #4d4b4b;
+  word-break: break-word;
+  cursor: pointer;
+}
+
+.clear-filter.btn {
+  font-size: 18px;
+  border: 2px solid;
+  float: right;
+  padding: 10px 20px;
+}
+
+/* ---- */
+
 /* Restaurants Section */
 
 .title-res {
@@ -148,4 +259,3 @@ header {
   position: absolute;
   bottom: 0;
 }
-
