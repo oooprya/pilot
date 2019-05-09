@@ -21,6 +21,11 @@ h1 {
   color: #2f2f2f;
 }
 
+div,
+img {
+  display: block;
+}
+
 /*  */
 /* Dostavka_Edy */
 
@@ -206,56 +211,14 @@ header {
   margin: 106px 0 65px 0;
 }
 
-.restaurants .nav-tabs {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 986px;
-  border-bottom: none;
-}
-
-
-
-/* .nav-link:link, .nav-link:visited {
-  display: block;
-
-  padding: 7px 0 11px 0;
-  width: 223px;
-  border: 2px solid #2f2f2f;
-
-  background-color: transparent;
-  color: #2f2f2f;
-  
-  text-decoration: none;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  color: #2f2f2f
-} */
-
 
 
 /* Restaurants Items */
 
-.rest-items {
-  width: 1171px;
-  margin: 0 auto;
+.rest-group {
+  text-align: center;
 }
 
-.res-item_1 {
-
-  background-image: url(../img/Restoraunt_1.png);
-  background-size: cover;
-  height: 503px;
-  margin-top: 65px;
-  position: relative;
-}
-
-.res-item_1-description {
-  width: 100%;
-  background-color: #fff;
-  background-image: url(../img/bg_elems.png);
-  height: 142px;
-  position: absolute;
-  bottom: 0;
+.rest-group img {
+  max-width: 100%;
 }
