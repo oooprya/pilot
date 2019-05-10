@@ -256,6 +256,8 @@ footer {
   text-align: center;
 }
 
+
+
 .rest-group img {
-  max-width: 100%;
+  object-fit: cover;
 }
