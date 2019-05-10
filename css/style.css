@@ -248,14 +248,24 @@ footer {
   margin: 106px 0 65px 0;
 }
 
-
+.restaurants .tabs-link {
+  margin: 4.2em 0 4.6em;
+}
 
 /* Restaurants Items */
 
 .rest-group {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .rest-group img {
   max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.rest-poto {
+  height: 340px;
+  overflow: hidden;
 }
