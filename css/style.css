@@ -252,12 +252,37 @@ footer {
 
 /* Restaurants Items */
 
-.rest-group {
-  text-align: center;
+.rest-link {
+  display: inline-block;
 }
 
-/* sdfsdfd */
-.rest-group img {
-  object-fit: cover;
+.rest-photo {
+  height: 360px;
+  overflow: hidden;
 }
+
+.rest-photo img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.rest-description {
+  height: 142px;
+  background-color: #fff;
+  background-image: url(../img/bg_elems.png);
+  margin-bottom: 52px;
+  box-shadow: 0 5px 8px -5px gray;
+}
+
+.rest-logo, .rest-title, .rest-about  {
+  display: inline-block;
+}
+
+
+
+
+
+
 
