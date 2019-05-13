@@ -227,6 +227,34 @@ header {
   padding: 10px 20px;
 }
 
+.rest-tags {
+  float: right;
+}
+
+.logo-rest {
+  float: left;
+  width: 145px;
+  height: 145px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.logo-rest img {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-rest::after {
+  box-shadow: 0 0 10px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin-left: 5%;
+  z-index: 1;
+}
+
 .item-res-food {
   padding: 20px;
   border: 2px solid #dcdcdc;
@@ -279,7 +307,9 @@ footer {
   box-shadow: 0 5px 8px -5px gray;
 }
 
-.rest-logo, .rest-title, .rest-about  {
+.rest-logo,
+.rest-title,
+.rest-about {
   display: block;
 }
 
@@ -318,7 +348,7 @@ footer {
   background-image: url(../img/bg-texture-light.jpg);
 }
 
-.delivery-block h2{
+.delivery-block h2 {
   margin-top: 90px;
 }
 
@@ -331,7 +361,7 @@ footer {
   overflow: hidden;
 }
 
-.item-image img{
+.item-image img {
   max-width: 100%;
   object-fit: cover;
   width: 100%;
@@ -346,9 +376,3 @@ footer {
   margin-bottom: 30px;
   box-shadow: 0 5px 8px -5px gray;
 }
-
-
-
-
-
-
