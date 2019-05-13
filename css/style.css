@@ -220,6 +220,18 @@ header {
   cursor: pointer;
 }
 
+.svg-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(/img/sprite.svg);
+  background-color: #6bcd5b;
+}
+
+.filter-delete {
+  background-position: 0 0;
+}
+
 .clear-filter.btn {
   font-size: 18px;
   border: 2px solid;
@@ -237,11 +249,24 @@ header {
   height: 145px;
   margin-right: 20px;
   position: relative;
+  border: 2px solid #dcdcdc;
+  background-color: #fff;
 }
 
 .logo-rest img {
   position: relative;
   z-index: 2;
+  max-width: 100%;
+}
+
+.sticker-new {
+  background-image: url(/img/ico-png/sticker-new.png);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  z-index: 3;
 }
 
 .logo-rest::after {
@@ -262,6 +287,16 @@ header {
   background-color: #fff;
 
 }
+
+.box-info {
+  display: flex;
+}
+
+.box-info span {
+  margin-right: 10px;
+  padding: 8px 0 0 0;
+}
+
 
 footer {
   background-color: #2f2f2f;
