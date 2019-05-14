@@ -392,7 +392,7 @@ footer {
 }
 
 .item-image {
-  width: 270px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -405,9 +405,42 @@ footer {
 
 
 .delivery-item-desc {
+  position: relative;
   height: 159px;
   background-color: #fff;
   background-image: url(../img/bg_elems.png);
   margin-bottom: 30px;
   box-shadow: 0 5px 8px -5px gray;
+}
+
+.item-desc-inner {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  width: 89%;
+}
+
+.desc-inner-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+ 
+}
+
+.rating-empty {
+  position: relative;
+}
+.rating-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
+
+.id-number {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #737373;
 }
