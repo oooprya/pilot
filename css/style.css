@@ -8,7 +8,8 @@ ul {
 }
 
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -281,6 +282,28 @@ header {
   z-index: 1;
 }
 
+.wrap-icons {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #737373;
+}
+
+[class$="-ico"]::before {
+  display: block;
+  float: left;
+  width: 22px;
+  height: 14px;
+}
+
+.comment-ico::before {
+  content: url(/img/svg/comment.svg);
+}
+
+.views-ico::before {
+  content: url(/img/svg/view.svg);
+}
+
 .item-res-food {
   padding: 20px;
   border: 2px solid #dcdcdc;
@@ -347,7 +370,7 @@ footer {
   position: absolute;
   margin: 0 auto;
   width: 1107px;
-  top:  18px;
+  top: 18px;
   left: 23px;
 }
 
@@ -444,6 +467,7 @@ footer {
   width: 100%;
   height: 100%;
 }
+
 .fill-ratings {
   display: block;
   position: absolute;
@@ -490,7 +514,8 @@ footer {
   left: 0;
 }
 
-.views-icon, .like-icon  {
+.views-icon,
+.like-icon {
   position: relative;
 }
 
@@ -538,5 +563,5 @@ footer {
   background-color: #6bcd5b;
   text-align: center;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
 }
