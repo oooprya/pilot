@@ -369,7 +369,7 @@ footer {
 .rest-description-inner {
   position: absolute;
   margin: 0 auto;
-  width: 1107px;
+  width: 96%;
   top: 18px;
   left: 23px;
 }
@@ -382,7 +382,6 @@ footer {
 
 .rest-logo {
   float: left;
-  /* margin-top: 18px; */
   width: 158px;
   height: 106px;
   border: 2px solid #eeeeee;
@@ -391,7 +390,7 @@ footer {
 .desc-title-block {
   position: relative;
   margin: 19px 0 0 206px;
-  width: 897px;
+  /* width: 897px; */
 }
 
 .desc-title-block p {
@@ -421,7 +420,7 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  width: 460px;
+  width: 51%;
 }
 
 .details-icons {
@@ -463,6 +462,29 @@ footer {
   width: 18px;
   top: 2px;
   left: -28px;
+}
+
+.rest-logo-small {
+  width: 113px;
+  height: 84px;
+  border: 2px solid #eeeeee;
+}
+
+.rest-description-small {
+  position: relative;
+  height: 160px;
+  background-image: url(../img/bg_elems.png);
+  background-color: #fff;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 8px -5px gray;
+}
+
+.rest-description-inner-small {
+  position: absolute;
+  margin: 0 auto;
+  width: 90%;
+  top: 21px;
+  left: 14px;
 }
 
 .order-delivery-btn {
