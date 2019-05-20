@@ -242,7 +242,8 @@ header {
 }
 
 .rest-tags {
-  float: right;
+  position: absolute;
+  right: 20px;
 }
 
 .logo-rest {
@@ -309,7 +310,25 @@ header {
   border: 2px solid #dcdcdc;
   margin-bottom: 30px;
   background-color: #fff;
+  height: 255px;
+  position: relative;
+}
 
+.item-res-food.ad-border {
+  border: 3px solid #d99122;
+}
+
+.title-restaurant {
+  float: left;
+}
+
+.wrap-info-rest {
+  padding: 8px 0 0 10px;
+  width: 100%;
+  border-top: 2px solid #dcdcdc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .box-info {
@@ -321,6 +340,66 @@ header {
   padding: 8px 0 0 0;
 }
 
+.like-rest {
+  width: 125px;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+  padding: 5px;
+}
+
+
+.wrap-like-btn {
+  float: left;
+  color: #6bcd5b;
+}
+
+.wrap-like-btn,
+.wrap-dislike-btn {
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.wrap-dislike-btn {
+  float: right;
+  color: #f34134;
+}
+
+.like-btn,
+.dislike-btn {
+  background-image: url(/img/svg/like.svg);
+  background-position: 6px 5px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #6bcd5b;
+  width: 22px;
+  height: 22px;
+  border: 0;
+}
+
+.dislike-btn {
+  background-image: url(/img/svg/dislike.svg);
+  background-position: 6px 6px;
+  background-color: #f34134;
+}
+
+.line-result {
+  background-color: #6bcd5b;
+  height: 2px;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+}
+
+.line-def {
+  height: 2px;
+  background-color: #f34134;
+  position: relative;
+  top: 8px;
+  z-index: 1;
+}
 
 footer {
   background-color: #2f2f2f;
